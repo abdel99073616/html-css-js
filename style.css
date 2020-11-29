@@ -25,6 +25,10 @@ html
     justify-content:space-evenly;
     cursor: pointer;
 }
+.change .sidebar
+{
+    right: 0;
+}
 .line
 {
     width: 100%;
@@ -123,7 +127,7 @@ html
     height: 100rem;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -40rem;
     background-color:#fff;
 }
 .menu
